@@ -30,8 +30,8 @@ export default function LoginPage() {
   };
 
   const fillDemoAdmin = () => {
-    setEmail('admin@doctortracker.com');
-    setPassword('admin123456');
+    setEmail('babustenly@gmail.com');
+    setPassword('12345678');
     dispatch(clearAuthError());
   };
 
@@ -165,7 +165,7 @@ export default function LoginPage() {
               <span>Fill Demo Admin Credentials</span>
             </button>
             <p className="text-[11px] text-slate-500 text-center mt-2">
-              Default: <code className="text-slate-400">admin@doctortracker.com</code> / <code className="text-slate-400">admin123456</code>
+              Default: <code className="text-slate-400">babustenly@gmail.com</code> / <code className="text-slate-400">12345678</code>
             </p>
           </div>
         </div>
